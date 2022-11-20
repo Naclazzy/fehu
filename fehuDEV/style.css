@@ -1,0 +1,42 @@
+
+  .collapsible {
+    position: relative;
+    padding-bottom: 0.5em;
+    background: linear-gradient(180deg, #DDE2FE 0%, #E0E3FF 48.44%, #E7E0FD 100%), linear-gradient(111.42deg, #D7C2F2 0.23%, #C1DFF5 100.19%);
+  }
+  .collapsible:not(.open) > * {
+    display: none;
+  }
+  .collapsible:not(.open) >  div:first-child {
+    display: inline-flex;
+  }
+  .box{
+    width: 672px;
+height: 280px;
+background: #FFFFFF;
+border-radius: 20px;
+display: inline-flex;
+  }
+img{
+    width: 100px;
+    height: 100px;
+}
+  .collapsible > .toggler {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 150px;
+    margin-left:  45% ;
+  }
+  /* .collapsible > .toggler::after {
+    content: "\25bc";
+  }
+  .collapsible.open > .toggler::after {
+    content: "\25b2";
+  } */
